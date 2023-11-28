@@ -59,8 +59,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
-    min-height: 60px;
+    padding: 25px 0;
+    /* debug
+    min-height: 60px; */
 }
 
 .bg-blue {
