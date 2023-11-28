@@ -25,7 +25,7 @@ header img {
     justify-content: flex-end;
 }
 
-.container-right button {
+#play-btn {
     margin-right: 10px;
     padding: 0 30px;
 }
