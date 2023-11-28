@@ -38,4 +38,7 @@ main {
 footer {
     background-color: white;
     min-height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
