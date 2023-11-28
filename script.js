@@ -16,4 +16,18 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 const mainContainer = document.getElementById("main-container");
 
 
-// generare una griglia di 100 quadrati
+// creare una funzione che permetta di generare elementi
+function generaUnElemento (tagtype, classname) {
+    const element = document.createElement(tagtype);
+    element.classList.add(classname);
+    return element
+}
+
+
+// generare gli elementi con un ciclo for utilizzando la funzione appena creata
+for (let i = 0; i < 100; i++) {
+    const newElement = generaUnElemento("div", "square");
+
+    // utilizzo append per linkare gli elementi alla griglia
+    mainContainer.append(newElement);
+}
