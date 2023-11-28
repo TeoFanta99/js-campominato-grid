@@ -44,3 +44,7 @@ for (let i = 1; i <= 100; i++) {
         }
     )
 }
+
+
+// selezione del bottone "play"
+const playBtn = document.getElementById("play-btn");
