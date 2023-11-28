@@ -59,7 +59,9 @@ main {
     min-height: 60px;
 }
 
-
+.number {
+    font-size: 20px;
+}
 
 footer {
     background-color: white;

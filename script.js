@@ -11,5 +11,9 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 */
 
 
+
+// selezione del contenitore nel main
+const mainContainer = document.getElementById("main-container");
+
+
 // generare una griglia di 100 quadrati
-    // 
