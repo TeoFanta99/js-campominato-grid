@@ -16,7 +16,7 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 const mainContainer = document.getElementById("main-container");
 
 
-// creare una funzione che permetta di generare elementi
+// creare una funzione che permetta di generare elementi e di assegnare una classe
 function generaUnElemento (tagtype, classname) {
     const element = document.createElement(tagtype);
     element.classList.add(classname);
@@ -25,9 +25,22 @@ function generaUnElemento (tagtype, classname) {
 
 
 // generare gli elementi con un ciclo for utilizzando la funzione appena creata
-for (let i = 0; i < 100; i++) {
+for (let i = 1; i <= 100; i++) {
     const newElement = generaUnElemento("div", "square");
+
+    // utilizzo append per linkare il numero all'elemento
+    newElement.append(i);
 
     // utilizzo append per linkare gli elementi alla griglia
     mainContainer.append(newElement);
+
+
+    // creo la funzione che permette di colorare la casella al click
+    newElement.addEventListener("click",
+    
+        function () {
+            newElement.classList.add("bg-blue");
+        }
+    
+    )
 }
