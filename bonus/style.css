@@ -40,7 +40,11 @@ main {
 
 .wrapper {
     width: 70%;
-    /* display: none; */
+    display: none;
+}
+
+.d-block {
+    display: block;
 }
 
 .container {
