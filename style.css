@@ -40,6 +40,7 @@ main {
 
 .wrapper {
     width: 70%;
+    /* display: none; */
 }
 
 .container {
@@ -62,8 +63,8 @@ main {
     min-height: 60px;
 }
 
-.number {
-    font-size: 20px;
+.bg-blue {
+    background-color: blue;
 }
 
 footer {
