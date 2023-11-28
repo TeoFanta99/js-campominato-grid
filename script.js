@@ -40,6 +40,7 @@ for (let i = 1; i <= 100; i++) {
     
         function () {
             newElement.classList.add("bg-blue");
+            console.log(i);
         }
     
     )
