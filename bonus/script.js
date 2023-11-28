@@ -48,3 +48,16 @@ for (let i = 1; i <= 100; i++) {
 
 // selezione del bottone "play"
 const playBtn = document.getElementById("play-btn");
+
+// selezione del wrapper
+const mainWrapper = document.getElementById("main-wrapper");
+
+
+// funzione che, al click del bottone, fa comparire i quadrati
+playBtn.addEventListener("click",
+
+    function () {
+        mainWrapper.classList.add("d-block");
+    }
+
+)
