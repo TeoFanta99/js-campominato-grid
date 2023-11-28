@@ -39,9 +39,8 @@ for (let i = 1; i <= 100; i++) {
     newElement.addEventListener("click",
     
         function () {
-            newElement.classList.add("bg-blue");
+            newElement.classList.add("bg-green");
             console.log(i);
         }
-    
     )
 }
