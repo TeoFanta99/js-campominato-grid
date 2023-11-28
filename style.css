@@ -7,6 +7,17 @@
 header {
     background-color: white;
     min-height: 100px;
+    display: flex;
+}
+
+header img {
+    width: auto;
+    height: 80px;
+}
+
+.container-left {
+    display: flex;
+    align-items: center;
 }
 
 main {
